@@ -1,0 +1,33 @@
+.slick-dots {
+	bottom: 0;
+}
+
+.slick-slider {
+	width: 250px;
+	height: 250px;
+}
+
+.slick-track {
+	height: 250px;
+}
+
+.slick-dots li {
+	width: 10px;
+	height: 10px;
+	margin: 0;
+	padding: 0;
+}
+
+.slick-slide {
+	height: 250px;
+	margin-top: 0;
+	background-image: url('../../assets/images/Image.svg');
+	background-size: 88px 88px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.slick-active,
+.slick-current {
+	margin-top: 0;
+}

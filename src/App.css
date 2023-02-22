@@ -1,0 +1,100 @@
+@font-face {
+	font-display: swap;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	src: url('./assets/fonts/montserrat-v25-latin-regular.woff2') format('woff2'),
+		url('./assets/fonts/montserrat-v25-latin-regular.woff') format('woff');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	src: url('./assets/fonts/montserrat-v25-latin-500.woff2') format('woff2'),
+		url('./assets/fonts/montserrat-v25-latin-500.woff') format('woff');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	src: url('./assets/fonts/montserrat-v25-latin-600.woff2') format('woff2'),
+		url('./assets/fonts/montserrat-v25-latin-600.woff') format('woff');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	src: url('./assets/fonts/montserrat-v25-latin-700.woff2') format('woff2'),
+		url('./assets/fonts/montserrat-v25-latin-700.woff') format('woff');
+}
+
+/* sail-regular - latin */
+/* @font-face {
+	font-display: swap;
+	font-family: 'Sail';
+	font-style: normal;
+	font-weight: 400;
+	src: url('./assets/fonts/sail-v16-latin-regular.woff2') format('woff2'),
+		url('./assets/fonts/sail-v16-latin-regular.woff') format('woff');
+} */
+
+/* GENERAL */
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+
+img {
+	display: block;
+	height: auto;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', 'Arial', sans-serif;
+	/* font-size: 16px; */
+	/* font-weight: 400; */
+	/* line-height: var(--main-line-height); */
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+/* CONTAINER */
+
+.container {
+	max-width: 1240px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+/* STICKY-FOOTER */
+.site-main {
+	flex-grow: 1;
+}
